@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
+const prompt = require('prompt-sync')();
 const app = express()
 
 const apiKey = 'a3ea64870e39766f2692cb3145676252';
